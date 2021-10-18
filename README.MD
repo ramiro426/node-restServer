@@ -5,4 +5,4 @@ Ejecutar ``` npm install ```
 
 
 
-creado por Ramirooo
+creado por Ramirooo y jose sanchez
