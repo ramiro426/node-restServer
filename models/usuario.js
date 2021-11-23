@@ -20,6 +20,7 @@ const UsuarioSchema = Schema({
     rol:{
         type: String,
         requerided: true, 
+        default:'USER_ROLE' ,
         enun: ['ADMIN_ROLE', 'USER_ROLE']
             
     },
