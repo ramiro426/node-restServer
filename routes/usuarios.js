@@ -54,7 +54,7 @@ router.patch('/', usuriosPatch);
 router.delete('/:id', [
     validarJWT,
     //esAdminRole,
-    tieneRole('ADMIN_ROL','NO_ROLE','VENTAS_ROL'),
+    tieneRole('ADMIN_ROL','USER_ROL','VENTAS_ROL'),
     check('id','No es un ID valido').isMongoId(),
     check('id').custom(existeUsuarioPorId),
     validarCampos
